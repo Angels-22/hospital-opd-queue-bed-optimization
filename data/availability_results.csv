@@ -1,0 +1,5 @@
+Scenario,Mean Wait (95% CI),Emergency Wait (95% CI),Routine Wait (95% CI),Doctor Utilization,Routine Starvation (>45m),Bed Rejection Rate
+All Present,15.23 ± 7.27 min,1.53 ± 0.64 min,21.11 ± 10.35 min,98.1% ± 3.3%,21.5% ± 18.7%,3.0% ± 2.5%
+Absences Without Backup,56.04 ± 50.87 min,19.44 ± 29.92 min,67.90 ± 55.76 min,99.0% ± 1.7%,53.1% ± 29.9%,3.9% ± 2.9%
+Absences with Floating Pool,13.90 ± 12.28 min,0.99 ± 0.51 min,19.73 ± 17.28 min,79.7% ± 6.8%,22.2% ± 27.0%,2.8% ± 3.8%
+Absences with Pool + Task Shifting,1.47 ± 0.95 min,0.79 ± 0.33 min,1.28 ± 1.23 min,65.0% ± 11.3%,0.0% ± 0.0%,4.1% ± 7.2%
